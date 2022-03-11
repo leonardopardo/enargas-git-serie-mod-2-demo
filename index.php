@@ -8,6 +8,6 @@
 </head>
 <body>
     <h1><?= "Hola" ?></h1>
-    <h3>Edad: <?= src\Facade\Date::CalcularEdad('12/06/1981') ?></h3>
+    <h3>Edad: <?= \src\Facade\Date::CalcularEdad('12/06/1981') ?></h3>
 </body>
 </html>
