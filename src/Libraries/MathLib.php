@@ -15,7 +15,7 @@ class MathLib {
     }
 
     public function sumaGaussiana(int $n): int{
-        return ($n * ( $n - 1) ) / 2;
+        return ($n * ( $n + 1) ) / 2;
     }
     
 }
