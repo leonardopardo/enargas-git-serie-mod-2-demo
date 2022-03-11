@@ -1,0 +1,25 @@
+{
+    "name": "enargas/curso-git",
+    "description": "Proyecto de la serie Introducción a Git Módulo 2",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Leonardo Pardo",
+            "email": "leonardoandrespardo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "require": {
+        "nesbot/carbon": "^2.57.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit tests --testdox"
+    }
+}
