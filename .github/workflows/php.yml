@@ -33,6 +33,9 @@ jobs:
       with:
         php-version: '7.4'
 
+    - name: Validate composer.json and composer.lock
+      run: composer validate
+
     - name: Install dependencies
       run: composer install
 
