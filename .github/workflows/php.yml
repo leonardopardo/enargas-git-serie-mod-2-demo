@@ -28,5 +28,12 @@ jobs:
     - name: Update dependencies
       run: composer update
 
+  tests:
+    runs-on: ubuntu-latest
+    
+    needs: build
+    
+    steps:
+
     - name: Run test suite
       run: composer run-script test
